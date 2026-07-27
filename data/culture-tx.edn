@@ -1,0 +1,70 @@
+;; data/culture-tx.edn — DataScript tx-data derived from
+;; src/culture/facts.cljc (ADR-2607171400). Generated, not hand-edited:
+;; test/culture/facts_test.clj asserts this file equals the catalog.
+
+[#:culture{:url "https://en.wikipedia.org/wiki/Xiaolongbao",
+           :id "shanghai.dish.xiaolongbao",
+           :kind :dish,
+           :name-local "小笼包",
+           :country "CHN",
+           :retrieved-at "2026-07-27",
+           :municipality "shanghai",
+           :summary
+           "A type of Chinese tangbao traditionally prepared in a xiaolong, a small bamboo steaming basket. The source attributes the most popular variety to Changzhou in Jiangsu; the Shanghai-style version, originating in Nanxiang (a former village now part of Shanghai), is the internationally best known.",
+           :name "Xiaolongbao",
+           :url-provenance :wikipedia-en}
+ #:culture{:url "https://en.wikipedia.org/wiki/Shengjian_mantou",
+           :id "shanghai.dish.shengjian-mantou",
+           :kind :dish,
+           :name-local "生煎馒头",
+           :country "CHN",
+           :retrieved-at "2026-07-27",
+           :municipality "shanghai",
+           :summary
+           "Small pan-fried baozi described by the source as a specialty of Suzhou AND Shanghai, and one of the most common breakfast items in Shanghai since the early 1920s.",
+           :name "Shengjian mantou",
+           :url-provenance :wikipedia-en}
+ #:culture{:url "https://en.wikipedia.org/wiki/Shanghai_cuisine",
+           :id "shanghai.dish.benbang-cuisine",
+           :kind :dish,
+           :name-local "本帮菜",
+           :country "CHN",
+           :retrieved-at "2026-07-27",
+           :municipality "shanghai",
+           :summary
+           "The regional culinary style originating in Shanghai, also called Hu cuisine (沪菜); characterised by a considerable amount of oil and soy sauce giving dishes a red, shiny appearance, aiming for lightness of flavour while being mellower and slightly sweet relative to other Chinese regional cuisines.",
+           :name "Shanghai cuisine (benbang / Hu cuisine)",
+           :url-provenance :wikipedia-en}
+ #:culture{:url "https://en.wikipedia.org/wiki/The_Bund",
+           :id "shanghai.heritage.the-bund",
+           :kind :heritage,
+           :name-local "外滩",
+           :country "CHN",
+           :retrieved-at "2026-07-27",
+           :municipality "shanghai",
+           :summary
+           "A waterfront area and protected historical district in central Shanghai, centred on a section of Zhongshan Road along the Huangpu River; it holds roughly 52 buildings in Western architectural styles including Art Deco, Beaux-Arts and Neoclassical, many of which formerly housed foreign banks and trading companies during the treaty-port era.",
+           :name "The Bund",
+           :url-provenance :wikipedia-en}
+ #:culture{:url "https://en.wikipedia.org/wiki/Yu_Garden",
+           :id "shanghai.heritage.yu-garden",
+           :kind :heritage,
+           :name-local "豫园",
+           :country "CHN",
+           :retrieved-at "2026-07-27",
+           :municipality "shanghai",
+           :summary
+           "An extensive Chinese garden beside the City God Temple in the north-east of the Old City of Shanghai, built from 1559 during the Ming dynasty by Pan Yunduan; declared a national monument in 1982 and a key site under state-level protection.",
+           :name "Yu Garden",
+           :url-provenance :wikipedia-en}
+ #:culture{:url "https://en.wikipedia.org/wiki/Shikumen",
+           :id "shanghai.architecture.shikumen",
+           :kind :architecture,
+           :name-local "石库门",
+           :country "CHN",
+           :retrieved-at "2026-07-27",
+           :municipality "shanghai",
+           :summary
+           "A traditional Shanghainese architectural style combining Western and Chinese elements, first appearing in the 1860s; at their peak there were 9,000 shikumen buildings in Shanghai, some 60% of the city's housing stock, a proportion now much lower as residents moved to modern apartments.",
+           :name "Shikumen",
+           :url-provenance :wikipedia-en}]
