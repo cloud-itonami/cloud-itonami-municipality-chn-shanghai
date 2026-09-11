@@ -17,8 +17,8 @@ spec-basis**, full stop — never fabricate one.
 
 ## Data
 
-- `src/ordinance/facts.cljc` — 2 ordinance entries, source of truth.
-- `src/culture/facts.cljc` — 6 culture entries, source of truth.
+- `src/ordinance/facts.cljk` — 2 ordinance entries, source of truth.
+- `src/culture/facts.cljk` — 6 culture entries, source of truth.
 - `schema/ordinance.edn` / `schema/culture.edn` — DataScript schemas,
   **deliberately identical to every sibling**; a test asserts every
   attribute the catalogs use is declared, so a divergence cannot slip in.
