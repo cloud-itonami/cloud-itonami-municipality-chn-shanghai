@@ -69,4 +69,4 @@ repo stores only citation metadata.
 
 ## Running it
 
-`clojure -M:test` (17 tests, 47 assertions) and `clojure -M:lint`.
+`kbb -M:test` (17 tests, 47 assertions) and `kbb -M:lint`.
